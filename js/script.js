@@ -4,8 +4,8 @@ window.addEventListener('DOMContentLoaded', () => {
     const getFutsell = document.querySelector('[data-futsell');
     let xhr = new XMLHttpRequest();
     let today = Math.round((new Date()).getTime() / 1000);
-    const id = 51167;
-    const secretKey = '756691067fe1209adc1ed42d355a2191';
+    const id = *;
+    const secretKey = '****';
     let passhash = CryptoJS.MD5(id + secretKey + today).toString();
     let body = null;
 
